@@ -2,4 +2,10 @@ body {
   background-color: #424242;
 }
 
+body div {
+  font-size: xx-large;
+  font-family: "Google Sans", sans-serif;
+  color: white;
+}
+
 /*# sourceMappingURL=index.css.map */
