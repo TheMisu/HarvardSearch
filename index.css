@@ -7,10 +7,9 @@ body {
   font-size: 0px;
   font-family: "Google Sans", sans-serif;
   color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .google span {
   font-size: 100px;
@@ -39,6 +38,29 @@ body {
 
 #e-span {
   color: #DB4437;
+}
+
+/* CSS for the form.*/
+.form {
+  /* Adjusting the positioning of the form.*/
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.sub-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Making the search bar round.*/
+.searchbar {
+  width: 500px;
+  height: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */
