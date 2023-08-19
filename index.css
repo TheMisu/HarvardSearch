@@ -2,6 +2,7 @@ body {
   background-color: #424242;
 }
 
+/* Changing the logo font and positioning.*/
 .google {
   font-size: 0px;
   font-family: "Google Sans", sans-serif;
@@ -12,9 +13,10 @@ body {
   transform: translate(-50%, -50%);
 }
 .google span {
-  font-size: xx-large;
+  font-size: 100px;
 }
 
+/* Changing the colors of the individual letters.*/
 #G-span {
   color: #4285f4;
 }
