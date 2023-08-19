@@ -3,7 +3,7 @@ body {
 }
 
 .google{
-    font-size: xx-large;
+    font-size: 0px;
     font-family: 'Google Sans', sans-serif;
     color: white;
 
@@ -11,4 +11,27 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    span{
+        font-size: xx-large;
+    }
+}
+
+#G-span{
+    color: #4285f4;
+}
+#o1-span{
+    color: #DB4437;
+}
+#o2-span{
+    color: #F4B400;
+}
+#g-span{
+    color: #4285f4;
+}
+#l-span{
+    color: #0F9D58;
+}
+#e-span{
+    color: #DB4437;
 }
