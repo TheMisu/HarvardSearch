@@ -8,11 +8,13 @@ body {
 .google{
     font-size: 0px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 550;
     color: white;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 225px;
 
     span{
         font-size: 80px;
@@ -63,7 +65,7 @@ body {
 .searchbar{
     border: 0;
     border-radius: 25px; /* making the search bar round*/
-    width: 500px;
+    width: 600px;
     height: 40px;
 
     &:focus{
@@ -74,5 +76,5 @@ body {
 /* CSS for the submit  button. */
 .submit, .lucky{
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
 }
