@@ -54,7 +54,7 @@ body {
   margin: 10px;
 }
 
-.sub-container {
+.sub-container, .lucky-container {
   text-align: center;
   margin: 20px;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 /* CSS for the submit  button. */
-.submit {
+.submit, .lucky {
   border-radius: 5px;
   height: 30px;
 }
