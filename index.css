@@ -68,12 +68,22 @@ body {
   border-radius: 25px; /* making the search bar round*/
   width: 600px;
   height: 40px;
+  margin-left: 5px;
+  background-image: url(search.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 15px;
 }
 .searchbar:focus {
   outline: none;
 }
 .searchbar:hover {
   box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+/* CSS for the magnifying glass icon. */
+.magGlass {
+  display: none;
 }
 
 /* CSS for the submit  button. */
