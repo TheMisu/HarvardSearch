@@ -66,8 +66,8 @@ body {
 .searchbar {
   border: 0;
   border-radius: 25px; /* making the search bar round*/
-  width: 600px;
-  height: 40px;
+  width: 550px;
+  height: 35px;
   margin-left: 5px;
   font-size: medium;
   padding: 5px 10px 5px 30px;
