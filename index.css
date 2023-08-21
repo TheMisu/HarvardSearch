@@ -72,6 +72,9 @@ body {
 .searchbar:focus {
   outline: none;
 }
+.searchbar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
 
 /* CSS for the submit  button. */
 .submit, .lucky {
