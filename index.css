@@ -94,4 +94,26 @@ body {
   height: 40px;
 }
 
+/* CSS for moving the links to the right corner */
+.links {
+  margin-top: 20px;
+  margin-left: 740px;
+}
+
+/* Changing the design for the links to  img/adv search. */
+.advLink, .imgLink {
+  color: #dcdcdc;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.advLink:hover, .imgLink:hover {
+  text-decoration: underline;
+}
+
+/* CSS for the link to the Advanced page. */
+.advLink {
+  margin-left: 10px;
+}
+
 /*# sourceMappingURL=index.css.map */
