@@ -94,6 +94,11 @@ body {
 .submit, .lucky{
     border-radius: 5px;
     height: 40px;
+    padding: 10px;
+
+    &:hover{
+        box-shadow: 1px 1px 4px 1px #c4c4c4;
+    }
 }
 
 /* CSS for moving the links to the right corner */
