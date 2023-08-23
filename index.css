@@ -96,8 +96,9 @@ body {
 
 /* CSS for moving the links to the right corner */
 .links {
-  margin-top: 20px;
-  margin-left: 740px;
+  position: fixed;
+  top: 20px;
+  right: 80px;
 }
 
 /* Changing the design for the links to  img/adv search. */
