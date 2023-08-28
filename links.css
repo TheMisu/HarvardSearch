@@ -12,4 +12,12 @@
   text-decoration: underline;
 }
 
+#imgs {
+  font-size: 15px;
+  color: #6cb9fa;
+  position: relative;
+  top: 40px;
+  right: 70px;
+}
+
 /*# sourceMappingURL=links.css.map */
