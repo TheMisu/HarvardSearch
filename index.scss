@@ -4,6 +4,14 @@ body {
     background-color: #424242;
 }
 
+.googleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 225px;
+    height: 13vh;
+}
+
 /* Changing the logo font and positioning.*/
 .google{
     font-size: 0px;
@@ -11,13 +19,9 @@ body {
     font-weight: 550;
     color: white;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 225px;
-
     span{
         font-size: 80px;
+        align-self: center;
     }
 }
 
@@ -40,6 +44,7 @@ body {
 #e-span{
     color: #DB4437;
 }
+
 
 /* CSS for the form.*/
 .form{

@@ -12,12 +12,17 @@
   text-decoration: underline;
 }
 
-#imgs {
-  font-size: 15px;
-  color: #6cb9fa;
+.imgsContainer {
   position: relative;
-  top: 40px;
-  right: 70px;
+  margin-top: -40px;
+  margin-left: 550px;
+}
+
+#imgs {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #6cb9fa;
 }
 
 /*# sourceMappingURL=links.css.map */
