@@ -5,9 +5,10 @@ body {
 
 .googleContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 225px;
+  margin-top: 11vw;
   height: 13vh;
 }
 

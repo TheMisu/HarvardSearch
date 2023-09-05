@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 .gSearch {
+  display: flex;
   position: fixed;
   top: 20px;
   right: 40px;
@@ -13,9 +14,9 @@
 }
 
 .imgsContainer {
-  position: relative;
-  margin-top: -40px;
-  margin-left: 550px;
+  position: absolute;
+  margin-top: 4vw;
+  margin-left: 11vw;
 }
 
 #imgs {
@@ -25,4 +26,4 @@
   color: #6cb9fa;
 }
 
-/*# sourceMappingURL=links.css.map */
+/*# sourceMappingURL=imgs.css.map */
