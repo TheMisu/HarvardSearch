@@ -72,7 +72,10 @@ span{
 }
 
 .formContainer{
-    background-color: #F4B400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     /* CSS for the search bar.*/
     .searchbar{
@@ -97,9 +100,23 @@ span{
             box-shadow: 1px 1px 8px 1px #dcdcdc;
         }
     }
-    
+
     /* CSS for the magnifying glass icon. */
     .magGlass{
         display: none;
+    }
+
+    .submit{
+        position: relative;
+        margin-top: 25px;
+        margin-left: 225px;
+
+        border-radius: 5px;
+        height: 35px;
+        padding: 10px;
+    
+        &:hover{
+            box-shadow: 1px 1px 4px 1px #c4c4c4;
+        }
     }
 }
