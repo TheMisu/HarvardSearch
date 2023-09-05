@@ -10,37 +10,41 @@
     </header>
 
     <body>
-        <!-- The Google logo, including "images" -->
-        <div class="googleContainer">
-            <div class="google">
-                <span id="G-span">G</span><!--
-                --><span id="o1-span">o</span><!--
-                --><span id="o2-span">o</span><!--
-                --><span id="g-span">g</span><!--
-                --><span id="l-span">l</span><!--
-                --><span id="e-span">e</span>
+        <div class="contentContainer">
+            <!-- The Google logo, including "images" -->
+            <div class="googleContainer">
+                <div class="google">
+                    <span id="G-span">G</span><!--
+                    --><span id="o1-span">o</span><!--
+                    --><span id="o2-span">o</span><!--
+                    --><span id="g-span">g</span><!--
+                    --><span id="l-span">l</span><!--
+                    --><span id="e-span">e</span>
 
-                <div class="imgsContainer">
-                    <p id="imgs">images</p>
+                    <div class="imgsContainer">
+                        <p id="imgs">images</p>
+                    </div>
+
                 </div>
-
             </div>
+
+            <!-- The form for searching -->
+            <div class="form">
+                <form action="https://www.google.com/search">
+                    <div class="search-container">
+                        <input class="searchbar" type="text" name="q">
+                        <input type="hidden" name="tbm" value="isch">
+                        <img class="magGlass" src="search.png" title="Search Icon">
+                    </div>
+
+                    <div class="submit-container">
+                        <input class="submit" type="submit" value="Image Search">
+                    </div>
+                </form>
         </div>
 
-        <!-- The form for searching -->
-        <div class="form">
-            <form action="https://www.google.com/search">
-                <div class="search-container">
-                    <input class="searchbar" type="text" name="q">
-                    <input type="hidden" name="tbm" value="isch">
-                    <img class="magGlass" src="search.png" title="Search Icon">
-                </div>
-
-                <div class="submit-container">
-                    <input class="submit" type="submit" value="Image Search">
-                </div>
-            </form>
         </div>
+
     </body>
 
 </html>
