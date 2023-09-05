@@ -2,28 +2,33 @@
 
 body {
     background-color: #424242;
-}
-
-.googleContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 11vw;
-    height: 13vh;
+    justify-content: center;
+    margin: 0;
 }
 
-/* Changing the logo font and positioning.*/
-.google{
-    font-size: 0px;
+span{
     font-family: 'Poppins', sans-serif;
-    font-weight: 550;
-    color: white;
+    font-size: 80px;
+}
 
-    span{
-        font-size: 80px;
-        align-self: center;
-    }
+.google{
+    display: inline-block;
+    margin-top: 35%;
+    margin-left: 30%;
+}
+
+.formContainer{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.submit-container{
+    margin-left: 130px;
+    margin-top: 25px;
 }
 
 /* Changing the colors of the individual letters.*/
@@ -46,32 +51,11 @@ body {
     color: #DB4437;
 }
 
-
-/* CSS for the form.*/
-.form{
-    /* Adjusting the positioning of the form.*/
-    text-align: center;
-    margin-top: 20px;
-
-    /* Channging the font of the form*/
-    font-family: 'Poppins', sans-serif;
-}
-
-.search-container{
-    text-align: center;
-    margin: 10px;
-}
-
-.sub-container{
-    text-align: center;
-    margin: 20px;
-}
-
 /* CSS for the search bar.*/
 .searchbar{
     border: 0;
     border-radius: 25px; /* making the search bar round*/
-    width: 550px;
+    width: 500px;
     height: 35px;
     margin-left: 5px;
     font-size: medium;
@@ -99,7 +83,7 @@ body {
 /* CSS for the submit  button. */
 .submit, .lucky{
     border-radius: 5px;
-    height: 40px;
+    height: 35px;
     padding: 10px;
 
     &:hover{
