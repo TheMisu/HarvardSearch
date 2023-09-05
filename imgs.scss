@@ -16,15 +16,90 @@
     }
 }
 
-.imgsContainer{
-    position: absolute;
-    margin-top: 4vw;
-    margin-left: 11vw;
+body{
+    background-color: #424242;
 }
 
-#imgs{
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    color: #6cb9fa;
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 11%;
+}
+
+.googleContainer{
+    display: flex;
+    flex-direction: column;
+
+    .imgsContainer{
+        position: relative;
+        margin-top: -2vw;
+        margin-left: 11.6vw;
+
+        #imgs{
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 16px;
+            color: #6cb9fa;
+        }
+    }
+}
+
+span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+
+/* Changing the colors of the individual letters.*/
+#G-span{
+    color: #4285f4;
+}
+#o1-span{
+    color: #DB4437;
+}
+#o2-span{
+    color: #F4B400;
+}
+#g-span{
+    color: #4285f4;
+}
+#l-span{
+    color: #0F9D58;
+}
+#e-span{
+    color: #DB4437;
+}
+
+.formContainer{
+    background-color: #F4B400;
+
+    /* CSS for the search bar.*/
+    .searchbar{
+        border: 0;
+        border-radius: 25px; /* making the search bar round*/
+        width: 500px;
+        height: 35px;
+        margin-left: 5px;
+        font-size: medium;
+
+        padding: 5px 10px 5px 30px;
+        background-image: url(search.png);
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        background-size: 15px;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            box-shadow: 1px 1px 8px 1px #dcdcdc;
+        }
+    }
+    
+    /* CSS for the magnifying glass icon. */
+    .magGlass{
+        display: none;
+    }
 }
