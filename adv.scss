@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-body{
-    background-color: #424242;
-}
-
 .gSearch{
     position: fixed;
     top: 20px;
     right: 40px;
+    z-index: 2;
 
     color: #dcdcdc;
     text-decoration: none;
@@ -17,4 +14,66 @@ body{
     &:hover{
         text-decoration: underline;
     }
+}
+
+/* Setting the height of the banner's parents so that I can later change
+the banner's height.  */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #424242;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gLogo{
+    position: relative;
+    top: 0.7rem;
+    left: 1rem;
+}
+
+span{
+    font-size: 1rem;
+}
+
+#G-span{
+    color: #4285f4;
+    font-size: 1.5rem;
+}
+#o1-span{
+    color: #DB4437;
+}
+#o2-span{
+    color: #F4B400;
+}
+#g-span{
+    color: #4285f4;
+}
+#l-span{
+    color: #0F9D58;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+#e-span{
+    color: #DB4437;
+}
+
+.banner{  
+    height: 13%;
+    z-index: 1;
+}   
+
+.advSearch{
+    position: relative;
+    left: 2.5rem;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    color: #DB4437;
+}
+
+.line{
+    margin-top: 1.25rem;
 }
