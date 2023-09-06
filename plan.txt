@@ -6,10 +6,10 @@ tells the browser that the search we are querying should return images.
 
 3. Advanced Search: Coppy of Google's Advanced Search page. The user
 should be provided with the following four fields:
-a) Find pages with... "all these words:"
-b) Find pages with... "this exact word or phrase:"
-c) Find pages with... "any of these words:"
-d) Find pages with... "none of these words:"
+a) Find pages with... "all these words:" => possibly achieved with input "as_q"
+b) Find pages with... "this exact word or phrase:" => possibly achieved with input "as_epq"
+c) Find pages with... "any of these words:" => possibly achieved with input "as_oq"
+d) Find pages with... "none of these words:" => possibly achieved with input "as_eq"
 Conditions: The page should be consistent with Google's CSS for
 Advanced Search (aka button should be blue with white text) and
 clicking the button should return the results page for the given query.
